@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:background="#7a7575"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.budipradnyana.myapplication.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling"
+    >
+
+    <ImageView
+        android:id="@+id/mhsimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#dedede"
+        android:padding="2dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#dedede"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mhsnama"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="Nama" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mhsnim"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="NIM" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
